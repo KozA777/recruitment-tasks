@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-container {
+    display: flex;
+    gap: 10px;
+  }
+
+h1 {
+  background-color: #1E90FF	; 
+  color: black;              
+  padding: 10px;             
+  text-align: center;        
+  font-size: 36px;           
+  font-weight: bold;        
+  border-radius: 10px;       
+  margin-bottom: 20px;      
+}
+
+nav a {
+  font-weight: bold;           
+  color: #007BFF;
+  text-align: center;               
+  margin-right: 10px;          
+  text-decoration: none;       
+}
+
+nav a:hover {
+  text-decoration: underline;  
+}
+
+
+ul li {
+  font-style: italic;          
+  font-size: 18px;             
+  margin: 5px 0;               
+}
+
+ul li button {
+  background-color: #4791ff; 
+  color: black;              
+  border: none;              
+  padding: 5px 10px;         
+  border-radius: 5px;        
+  cursor: pointer;           
+}
+
+ul li button:hover {
+  background-color: #8747ff; 
+}
+
+
+h2 {
+  font-size: 28px;           
+  font-weight: bold;         
+  color: #333;              
+  margin-bottom: 10px;       
+}

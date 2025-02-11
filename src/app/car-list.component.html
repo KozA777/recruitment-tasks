@@ -1,0 +1,12 @@
+<h2>Car List</h2>
+<ul>
+  <li *ngFor="let car of cars">
+    {{ car.name }}
+    <span *ngIf="car.model && car.registration">
+      ({{ car.model }}, {{ car.registration }})</span
+    >
+    <button (click)="confirmDelete(car)">Delete</button>
+  </li>
+</ul>
+
+<button (click)="exportToCSV()">Export Cars to CSV</button>
